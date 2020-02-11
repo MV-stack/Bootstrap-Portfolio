@@ -6,18 +6,30 @@ body {
     float: left;
 }
 
+.main-section {
+    display: inline-block;
+
+}
+
 .column {
+    display: inline-block;
     float: left;
     width: 20%;
     padding: 5px;
 }
-  
+
+.row {
+    float: center;
+    text-align: center;
+    display: inline-block;
+}
+
 /* Clear floats after image containers */
 .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .center {
     display: block;
@@ -63,6 +75,6 @@ input[type=submit]:hover {
 footer {
     text-align: center;
     color: navy;
-    background-color:gray;
+    background-color: gray;
     padding: 10px;
 }
