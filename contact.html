@@ -8,7 +8,7 @@
     <title>Contact</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -19,37 +19,25 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="navbar-links" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <!--<li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>-->
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>                
             </ul>
-            <form class="search">
+            <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
-    <div id="main-container" class="container">
+    <div class="container">
         <section class="main-section">
             <h1>Contact</h1>
             <form action="/action_page.php">
@@ -64,40 +52,6 @@
             </form>
         </section>
     </div>
-    <!--<form><div id="main-container" class="container">
-    <section class="main-section">
-      <div class="main">
-        
-        <h1>Contact</h1>
-
-        <form action="/action_page.php">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith..">
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
-            </input type="text" id="email" name="email" placeholder="example@gmail.com">Message</label>
-            <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
-            <input type="submit" value="Submit">
-        </form>
-      </div>
-    </section>
-  </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>-->
     <div class="footer">
         <footer>
             <p>Copyright &copy;</p>
